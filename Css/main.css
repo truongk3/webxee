@@ -1,0 +1,605 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Public Sans,sans-serif;
+}
+
+/* CSS GO TO TOP */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(22, 28, 36, 0.8);
+    padding: 1%;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+/* CSS GO TO TOP */
+
+/* CSS NNHỮNG ELEMENTS THÊM VÀO KHI RESPONSIVE */
+.menu-list {
+    display: none;
+}
+ul.component > div#times {
+    display: none;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    background-color: rgba(24, 144, 255, 0.16);
+    
+}
+
+ul.components > div > i {
+    font-size: larger;
+}
+
+div.coverBackgr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 41, 54, 0.7);
+    z-index: 10;
+    display: none;
+}
+
+
+
+/* CSS NNHỮNG ELEMENTS THÊM VÀO KHI RESPONSIVE */
+/* CSS BACKGROUND VIDEO */
+video.backgrVid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    z-index: -1;
+}
+/* CSS NAVIGATION */
+
+/* CSS MENU LOGO VA V3.5.0 */
+nav.menu {
+    padding: 1rem 3rem;
+    width: 100%;
+    /* width: 100vw; */
+    height: 10vh;
+    background-color: rgba(32, 41, 49, 0.85);
+    box-shadow: 1px 1px 10px rgba(32, 41, 49, 0.85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.components {
+    /* margin-top: 2rem; */
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+/* CSS ARROW */
+
+div.arrow {
+    position: absolute;
+    top: -0.7rem;
+    width: 0;
+    height: 0;
+    border-bottom: 0.7rem solid rgba(22, 49, 83, 0.8);
+    border-left: 0.7rem solid transparent;
+    border-right: 0.7rem solid transparent;
+    left: 1rem;
+}
+
+/* CSS ARROW */
+
+
+ul.components > li > a {
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul.components > li > a > img {
+    /* float: left; */
+    height: 3rem;
+}
+
+ul.components > li > a.sub {
+    display: block;
+    text-align: center;
+    background-color: rgba(24, 144, 255, 0.16);
+    color: #0C53B7;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* CSS HOME, PAGES,.. */
+ul.component {
+    margin-left: 35rem;
+}
+
+ul.component > li {
+    margin-left: 2rem;
+}
+
+ul.component > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+ul.component > li.Pagenav > .fp {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul.component > li:first-child > a {
+    color: #02a754;
+}
+
+ul.component > li:last-child > a{
+    background-color: #02a754;
+    border-radius: 0.7rem;
+}
+ul.component > li > a:hover {
+    background-color: rgba(24, 144, 255, 0.16);
+    border-radius: 10px;
+}
+
+ul.component > li.Pagenav > .fp:hover {
+    background-color: rgba(24, 144, 255, 0.16);
+    border-radius: 10px;
+}
+
+#meme1 {
+    display: none;
+}
+
+
+
+input#pages:checked + ul.component > li > label {
+    background-color: rgba(24, 144, 255, 0.16);
+    border-radius: 10px;
+}
+
+li.Pagenav > ul {
+    position: absolute;
+    top: 4rem;
+    border-radius: 0.7rem;
+    background-color: rgba(22, 49, 83, 0.8);
+    list-style-type: none;
+    text-align: center;
+}
+
+li.Pagenav > ul > li {
+    /* margin-left: 2rem; */
+    margin: 1rem;
+    max-width: inherit;
+}
+
+
+li.Pagenav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-weight: 530;
+}
+li.Pagenav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+/* CSS PHAN CONTAINER */
+div.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+div.container > p.parents {
+    line-height: 1.25;
+    font-weight: 600;
+    top: 21vh;
+    left: 10vw;
+    position: relative;
+    width: 30rem;
+    color: white;
+    font-size: 5rem;
+    font-family: Public Sans,sans-serif;
+    z-index: 5;
+}
+div.container > p.dad {
+    position: absolute;
+    top: 63vh;
+    left: 10vw;
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 30%;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    background-color: rgba(32, 41, 49, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div.container > p.parents > b {
+    color: #00ab55;
+    display: block;
+}
+
+
+
+
+/* CSS PHAN SECTION */
+section.content {
+    background-color: rgba(22, 28, 36, 0.8);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 120vh;
+}
+
+header.subcontent {
+    color: wheat;
+    text-align: center;
+}
+header.subcontent > h1 {
+    padding-top: 3rem;
+    font-size: 2.5rem;
+}
+header.subcontent > h2 {
+    margin-top: 2rem;
+}
+
+section.child {
+    overflow: hidden;
+    position: relative;
+    border-radius: 2rem;
+    margin: 2.5rem auto 0;
+    width: 70%;
+    margin-top: 2rem;
+    background-color: rgba(194, 201, 208, 0.7);
+    text-align: center;
+}
+/* LÀM PHẦN LABEL DEACORATIONA */
+section.child > .Label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    width: max-content;
+    height: max-content;
+    font-size: 90%;
+    padding: 0.7%;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0 0 0 2rem;
+    text-align: center;
+    line-height: 200%;
+    animation: changeColor 1s infinite;
+}
+
+@keyframes changeColor {
+    0% {background-color: rgba(26, 43, 58, 0.8);}
+    /* 25% {background-color: lightsalmon;} */
+    50% {background-color: rgba(80, 139, 187, 0.8);}
+    100% {background-color: rgba(13, 69, 118, 0.8);}
+}
+/* LÀM OHAANF BACKGROUND DECORATION */
+section.child > .decor {
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.9);
+    width: 100%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+    border-radius: 50% 250% 0 0;
+}
+
+@keyframes mymove {
+    50% {transform: translateY(-3.5%) translateZ(0);}
+}
+
+@keyframes mymove1 {
+    50% {transform: translateY(3.5%) translateZ(0);}
+}
+
+section.child > img {
+    margin: 3rem;
+    border-radius: 2.5rem;
+    height: 35vw;
+    box-shadow: 1px 1px 15px rgba(32, 41, 49, 0.5);
+}
+
+section.child > img:nth-child(odd) {
+    animation: mymove 3s infinite;
+}
+section.child > img:nth-child(even) {
+    animation: mymove1 3s infinite;
+}
+
+/* CSS NEWSROOMs */
+
+section.content2 {
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 120vh;
+    border-radius: 3rem;
+    width: 90%;
+    margin: 2% auto;
+}
+
+
+section.content2 > .New {
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    top: 10%;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    z-index: 5;
+}
+
+@keyframes mymove {
+    50% {transform: translateY(-2%) translateZ(0);}
+}
+
+section.content2 > .New > img {
+    padding: 5%;
+    width: 100%;
+    height: 50%;
+    transition: transform 0.5s;
+    animation: mymove 3s infinite;
+}
+
+
+
+/* CSS NUT BAM */
+.left, .right {
+    line-height: 200%;
+    color: wheat;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(26, 43, 58, 0.8);
+    cursor: pointer;
+}
+
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.left:active, .right:active {
+    background-color: lightblue;
+    color: black;
+}
+
+.elip {
+    /* display: none; */
+    position: relative;
+    top: -15rem;
+    width: 90%;
+    height: 35%;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgba(78,154,199, 0.5) 3%, rgba(120,174,213,0.5) 24%, rgba(185,205,236,0.5) 57%);
+    border-radius: 250%;
+    box-shadow: 1px 1px 5px rgba(13, 69, 118, 0.8);
+    transition: transform 0.5s;
+    animation:  mymove 3s infinite;
+}
+
+section.content2 > .subcontent {
+    position: absolute;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    height: 5rem;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right bottom, aqua, rgb(22, 28, 36));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+video.gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.lock {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2.5%;
+    height: 3.5%;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px dashed black;
+    font-size: medium; 
+    animation: doivien 0.5s infinite;   
+}
+@keyframes doivien {
+    50% {
+        border: 1px solid black;
+    }
+    100% {
+        border: 2px dashed white;
+    }
+}
+
+div.lock > .fa-lock {
+    display: none;
+}
+
+/* FOOTER */
+
+footer {
+    top: 10rem;
+    position: relative;
+    height: 120vh;
+    background-image: url(../images/MainfooterImages.png);
+
+}
+
+/* CSS FEEDBACK */
+
+section.feedback {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(114, 118, 115, 0.9);
+    margin: 0;
+    border-radius: 2rem;
+    padding-top: 1rem;
+}
+section.feedback > form {
+    position: relative;
+}
+
+section.feedback > form > div {
+    margin: auto;
+    width: 90%;
+}
+
+section.feedback > form > div > hr {
+    border: 1px solid #413c3c;
+    margin: 25px 0;
+}
+
+input.mail {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input.mail:focus, textarea#response:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+textarea#response {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 0 2rem 0;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+section.foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+
+section.foot > header {
+    margin: 0 auto;
+    padding: 1%;
+}
+
+section.foot > header > h1, h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.foot > table {
+    margin: 0 auto;
+}
+
+
+section.foot > table td {
+    color: white;
+    width: 15rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.foot > table td:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+section.foot > table td > i {
+    /* padding: 5px; */
+    margin-right: 1.5rem;
+    font-size: 1.23rem;
+}
+
+

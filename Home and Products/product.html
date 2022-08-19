@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="./CSS/product.css">
+    <link rel="stylesheet" href="./CSS/productResponsive.css">
+
+    <script> new WOW().init(); </script>
+</head>
+<body onload="init()">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <nav>
+        <div class="head">
+            <div class="menu" onclick="ShowMenuCover()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <div class="logo">ELITE CARS <sup class="ver">v3.5.0</sup></div>
+            <div class="search">
+                <input id="keyword" type="text" name="search" placeholder="Search for your car..">
+                <a href="" class="toFind" style="visibility: hidden;"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="menuCover">
+        <div class="Times"><i onclick="CloseMenu()" class="fa-solid fa-xmark"></i></div>
+        <div class="settings">Menu settings</div>
+        <hr>
+        <ul class="innerMenu animate__animated">
+            <div class="type">Types</div>
+            <li><span class="sedan" onclick="CloseMenu()"><i class="fa-solid fa-car"></i> <br>Sedan</span></li>
+            <li><span class="truck" onclick="CloseMenu()"><i class="fa-solid fa-truck-pickup"></i><br>Pickup Truck</span></li>
+        </ul>
+        <ul class="innerMenu2 animate__animated">
+            <div class="account">Account</div>
+            <li onclick="CloseMenu()"><a style="text-decoration: none;" href="../Purchase Now/Sign.html" target="_blank">Log in</a></li>
+            <li onclick="CloseMenu()"><a style="text-decoration: none;" href="../Purchase Now/Sign.html" target="_blank">Join us</a></li>
+        </ul>
+    </div>
+    <div class="cover" onclick="CloseMenu()" ></div>
+    <section class="Gal">
+        <section class="GalShow">
+            <div class="picShow">
+                <img src="./images/11-removebg.png" alt="showPic">
+            </div>
+            <a onclick="PurchaseNow()" style="text-decoration: none;" target="_blank" href="../Purchase Now/purchaseNow.html" class="Buy animate__animated animate__flipInX">Purchase now</a>
+
+            <div class="elip"></div>
+            <div class="dataInfo">
+                <p>SELTOS</p>
+                <p>$109,000/-</p>
+            </div>
+        </section>
+        <section class="GalPro">     
+             <!--PHAN 1  -->
+            <div class="images Product1">
+                <div id="pro1">
+                    <a href="#" onclick="showGal(this)" id="anh0" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/s2.png">
+                    <div class="dataInfo">
+                        <p>Porsche 911</p>
+                        <p> $99,000/-</p>
+                    </div>
+                </div>
+                <div id="pro2">
+                    <a href="#" onclick="showGal(this)" id="anh1" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/audi1.png">
+                    <div class="dataInfo">
+                        <p >Audi Q7</p>
+                        <p> $155,000/-</p>
+                    </div>
+                </div>
+                <div id="pro3">
+                    <a href="#" onclick="showGal(this)" id="anh2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/audi2.png">
+                    <div class="dataInfo">
+                        <p >2018 Audi Q3</p>
+                        <p> $75,000/-</p>
+                    </div>
+                </div>
+                <div id="pro4">
+                    <a href="#" onclick="showGal(this)" id="anh5" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/audi4.png">
+                    <div class="dataInfo">
+                        <p >Volvo XC90</p>
+                        <p> $105,000/-</p>
+                    </div>
+                </div>
+                <div id="pro5">
+                    <a href="#" onclick="showGal(this)" id="anh3" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/audi3.png">
+                    <div class="dataInfo">
+                        <p>2011 Audi A8</p>
+                        <p>$150,000/-</p>
+                    </div>
+                </div>
+                <div id="pro6">
+                    <a href="#" onclick="showGal(this)" id="anh4" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/sedan5-removebg-preview.png">
+                    <div class="dataInfo">
+                        <p >2016 Volkswagen</p>
+                        <p> $100,000/-</p>
+                    </div>
+                </div>
+                <div id="pro7">
+                    <a href="#" onclick="showGal(this)" id="anh6" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/rol111.png">
+                    <div class="dataInfo">
+                        <p >Roll-Royce Ghost</p>
+                        <p> $200,000/-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHAN 2 -->
+            <div class="images Product2">
+                <div id="pro1-2">
+                    <a href="#" onclick="showGal(this)" id="anh0-2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/bantai1.png">
+                    <div class="dataInfo">
+                        <p>Chevrolet Colorado</p>
+                        <p> $155,000/-</p>
+                    </div>
+                </div>
+                <div id="pro2-2">
+                    <a href="#" onclick="showGal(this)" id="anh1-2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/bantaii2.png">
+                    <div class="dataInfo">
+                        <p >Ford Ranger</p>
+                        <p> $200,000/-</p>
+                    </div>
+                </div>
+                <div id="pro3-2">
+                    <a href="#" onclick="showGal(this)" id="anh2-2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/bantai3.png">
+                    <div class="dataInfo">
+                        <p>Nissan Navara</p>
+                        <p> $175,000/-</p>
+                    </div>
+                </div>
+                <div id="pro4-2">
+                    <a href="#" onclick="showGal(this)" id="anh3-2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/bantai4.png">
+                    <div class="dataInfo">
+                        <p>2021 Ford Ranger</p>
+                        <p> $199,000/-</p>
+                    </div>
+                </div>
+                <div id="pro5-2">
+                    <a href="#" onclick="showGal(this)" id="anh4-2" class="info">
+                        Live Preview
+                    </a>
+                    <img src="./images/bantai5.png">
+                    <div class="dataInfo">
+                        <p>Mazda BT-50</p>
+                        <p>$239,000/-</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+    </section>
+    
+    <section class="Ads">
+        <div class="pannel" >
+            <img src="./images/ProductPannel.png" alt="pannel">
+            <h1 class="register">Register for a test drive at the nearest Elite Cars's headquarters! <br><span>Register <i class="fa-regular fa-share-from-square"></i></span></h1>
+        </div> 
+    </section>
+
+    <footer>
+        <div>
+            <section class="foot">
+                <header>
+                    <h1>ELITE-CARS</h1>
+                    <h3 style="font-weight: 300; font-size: smaller;">MOTO CARS</h3>
+                </header>        
+                <hr style="border-color: rgb(42, 40, 40); width: 90%; margin: 1rem auto;">
+                <table>
+                    <tr>
+                        <td>PRE-OWNED</td>
+                        <td>COOKIES</td>
+                        <td>PRESSCLUB</td>
+                        <td>LEGAL</td>
+                        <td>COMPLAINTS</td>
+                    </tr>
+                    <tr>
+                        <td>FIND A DEALER</td>
+                        <td>EU TYRE LABELS</td>
+                        <td>FAQS</td>
+                        <td>CONTACT</td>
+                        <td>PRIVACY</td>
+                    </tr>
+                    <tr>
+                        <td>CAREERS</td>
+                        <td>SITE MAP</td>
+                        <td>WHISPERS</td>
+                        <td>LANGUAGE</td>
+                        <td><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-twitter"></i></td>
+                    </tr>
+                </table>
+                <hr style="border-color: rgb(42, 40, 40); width: 90%; margin: 1rem auto;">
+            </section>
+        </div>
+    </footer>
+    
+</body>
+<script src="./JS/product.js"></script>
+<script src="./JS/ProdPur.js"></script>
+</html>

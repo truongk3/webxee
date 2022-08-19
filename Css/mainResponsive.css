@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1023px) {
+    .menu-list {
+        display: block !important;
+        position: absolute;
+        right: 1rem;
+        transition: right linear 0.2s;
+    }
+    /* input#listcomponent:checked + label + ul {
+        right: 2rem;
+    }
+    input#listcomponent:checked + label {
+        right: -3rem;
+    } */
+    ul.component {
+        display: block;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        background-color: rgba(22, 49, 83, 0.8);
+        position: fixed;
+        top: 15%;
+        right: -15rem;
+        transition: right linear 0.2s;
+        z-index: 99;
+    }
+    ul.component > li {
+        margin: 2rem;
+    }
+    ul.components > li > a {
+        font-size: 1.2rem !important;
+    }
+    ul.components > div#times {
+        display: flex !important;
+        cursor: pointer;
+    }
+
+    /* PAGES */
+    li.Pagenav {
+        margin: 0 !important;
+    }
+    li.Pagenav > ul {
+        top: 1rem !important;
+        text-align: center !important;
+        box-shadow: none !important;
+        width: inherit !important;
+        list-style-type: none !important;
+        /* display: none !important; */
+        position: relative !important;
+        background-color: inherit !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    li.Pagenav > ul > li {
+        margin: 0 !important;
+    }
+    li.Pagenav > .fp {
+        font-size: 1.2rem !important;
+    }
+
+    li.Pagenav > ul > li > a {
+        padding: 15px !important;
+        color: white !important;
+    }
+
+    /* input#pages:checked + label + ul {
+        display: block !important;
+    } */
+
+    ul.visualpic {
+        display: none;
+    }
+
+    div.arrow {
+        display: none;
+    }
+
+
+    /* CSS PHAN DIV CONTAINER */
+    div.container {
+        /* height: 100% !important; */
+        margin-top: -10rem !important;
+    }
+
+    div.container > p.parents {
+        margin-top: 5rem !important;
+        font-size: 2.5rem !important;
+    }
+    
+    div.container > p.dad {
+        margin-top: -20rem;
+    }
+    /* CSS PHAN DIV CONTAINER */
+
+    /* CSS SECTION CHINH */
+    section.content {
+        top: -20rem !important;
+    }
+    section.child > img {
+        margin: 3rem 1rem !important;
+        height: 30vw !important;
+        border-radius: 1.5rem !important;
+    }
+
+    header.subcontent > h1, h2 {
+        margin: 0 1.5rem;
+    }
+    /* header.subcontent > h2 {
+        margin-top: 2rem;
+    } */
+    section.content {
+        height: 60vh !important;
+    }
+
+    section.child > .Label {
+        font-size: 50% !important;
+        padding: 2% !important;
+    }
+
+    /* CSS TRANG CONTENT2 */
+    section.content2 {
+        top: -12rem !important;
+        margin: 0 auto !important;
+        display: inline !important;
+    }
+    section.content2 > .subcontent {
+        font-size: 2rem !important;
+    }
+
+    /* CSS AUTOPLAY */
+    .lock {
+        width: 5% !important;
+        height: 10% !important;
+        font-size: 70% !important;
+    }
+
+    /* CSS FOOT */
+
+    section.foot > table {
+        margin: 2rem !important;
+    }
+
+    section.foot > table td {
+        font-size: 0.6rem !important;
+        padding: 0.5rem !important;
+        font-weight: 400 !important;
+    }
+
+    section.foot > table td > i {
+        font-size: 0.9rem !important;
+        margin-right: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    div.container > p.parents {
+        display: none;
+    }
+    div.container > p.dad {
+        font-size: 0.7rem !important;
+        left: 0 !important;
+        width: 70% !important;
+        top: 20% !important;
+    }
+    section.content {
+        top: -25rem !important;
+    }
+    header.subcontent > h1 {
+        font-size: 1.5rem !important;
+    }
+    header.subcontent > h2 {
+        margin: 2rem 1rem !important;
+        font-size: 1rem !important;
+    }
+    section.child > img {
+        margin: 1rem !important;
+        border-radius: 0.5rem !important;
+        height: 25vw !important;
+    }
+    
+    section.content {
+        height: 60vh !important;
+    }
+
+    input.mail {
+        padding: 5px !important;
+        margin: 3px 0 15px 0 !important;
+        display: block !important;
+    }
+
+    textarea#response {
+        height: 70% !important;
+    }
+
+    section.feedback {
+        width: 100% !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    section.feedback form {
+        width: 100% !important;
+    }
+
+    section.feedback h1, b, label, hr, textarea, input {
+        margin: 0 !important;
+        font-size: 0.7rem !important;
+    }
+    section.feedback h1, b, label {
+        color: aliceblue;
+        font-weight: 400;
+        margin-bottom: 1rem !important;
+    }
+
+    section.feedback div {
+        display: block !important;
+        margin-bottom: 2rem !important;
+    }
+    section.feedback {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: end !important;
+   }
+   
+   /* CSS FOOT */
+
+    section.foot > table td {
+        font-size: 0.3rem !important;
+        padding: 0 !important;
+    }
+
+    section.foot > table td > i {
+        font-size: 0.3rem !important;
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./Css/main.css">
+      <link rel="stylesheet" href="./Css/mainResponsive.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Elite-CARS</title>
+   </head>
+   <body>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <div onclick="HideMenu()" class="coverBackgr"></div>
+      <header>
+         <video playsinline autoplay muted loop poster="/" class="backgrVid">
+            <source src="./images/mainvideoBackground .mp4" type="video/mp4">
+         </video>
+         <nav class="menu">
+            <ul class="components res-components" style="z-index: 5;">
+               <li><a href="#"><img src="./images/ảnh logo main.png" alt="logo"></a></li>
+               <li><a class="sub" href="#">v3.5.0</a></li>
+            </ul>
+            <div onclick="ShowMenu()" class="menu-list"><i style="font-size: 2.5rem; color: #406ba6; cursor: pointer;" class="fa-solid fa-bars-staggered"></i></div>
+            <ul class="components component">
+               <div onclick="HideMenu()" id="times"><i class="fa-solid fa-xmark"></i></div>
+               <li><a href="#">Home</a></li>
+               <li><a href="./Home and Products/product.html" target="_blank">Elite-CARS</a></li>
+               <li class="Pagenav">
+                  <!-- <input type="checkbox" id="pages"> -->
+                  <div onclick="ShowPages()" class="fp">Pages <i id="meme" class="fa fa-angle-down"></i><i id="meme1" class="fa fa-angle-up"></i></div>
+                  <ul id="getClose">
+                     <div class="arrow"></div>
+                     <li><a href="#">OTHERS</a></li>
+                     <li><a href="#">About us</a></li>
+                     <li><a href="#">Contact us</a></li>
+                     <li><a href="#">Payment</a></li>
+                     <li><a href="#">Coming soon</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Test drive</a></li>
+               <li><a href="../Sign, Purchase Now/Sign.html" target="_blank">Account</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <p class="parents animate__animated animate__bounceInLeft">
+               Start your journey with <b>Elite Cars!</b>
+            </p>
+            <p class="dad animate__animated animate__bounceInLeft">ELITE CARS's based on advanced technology and our enthusiasm. Provides the best experience for your journeys!</p>
+         </div>
+      </header>
+      <section class="content">
+         <header class="subcontent">
+            <h1>OUTSTANDING FEATURES - RELIABLE - CONVENIENT</h1>
+            <h2>We've just released Voice Controlling, Recording Driving History, Urgent Charging and other appealing features</h2>
+         </header>
+         <section class="child">
+            <div class="Label">SPECIAL!</div>
+            <div class="decor"></div>
+            <img src="./images/xe.jpg" alt="car">
+            <img src="./images/xe1.jpg" alt="car">
+            <img src="./images/xe2.jpg" alt="car">
+         </section>
+      </section>
+      <section class="content2">
+         <video playsinline autoplay muted loop poster="/" class="gallery">
+            <source src="./images/MaingalleryVideo.mp4" type="video/mp4">
+         </video>
+         <div class="subcontent">
+            Featured Elite-CARS Cars
+         </div>
+         <div class="New">
+            <img class="picSlide" src="./images/22-removebg.png" alt="teslaNewFea">
+            <img class="picSlide" src="./images/33-removebg.png" alt="teslaNewFea">
+            <img class="picSlide" src="./images/11-removebg.png" alt="teslaNewFea">
+            <div onclick="slideL()" class="left"><i class="fa-solid fa-chevron-left"></i></div>
+            <div onclick="slideR()" class="right autoPlay"><i class="fa-solid fa-chevron-right"></i></div>
+         </div>
+         <div class="elip"></div>
+         <div class="lock" onclick="Lock()">
+            <i title="Autoplay" class="fa-solid fa-lock"></i>
+            <i title="Not autoplay" class="fa-solid fa-lock-open"></i>
+         </div>
+      </section>
+      <footer>
+         <section class="feedback">
+            <form action="">
+               <div>
+                  <h1 style="margin-bottom: 1rem; font-weight: 700 !important;">FEEDBACK</h1>
+                  <p><b>We're glad to receive your feedback!</b></p>
+                  <hr>
+                  <label for="email"><b>Email</b></label>
+                  <input class='mail' type="text" placeholder="Email address" name="email" required>
+                  <label for="response"><b>Feedback</b></label>
+                  <textarea id="response" name="response" placeholder="Write your feedback..." style="height:150px"></textarea>
+                  <label style="display: block; width: fit-content;">
+                  <input type="checkbox" name="notify" style="margin-bottom:15px"> Notify the lastest news
+                  </label>
+                  <input type="submit" value="Send">
+               </div>
+            </form>
+         </section>
+         <section class="foot">
+            <header>
+               <h1>ELITE-CARS</h1>
+               <h3 style="font-weight: 300; font-size: smaller;">MOTO CARS</h3>
+            </header>
+            <hr style="border-color: rgb(42, 40, 40); width: 90%; margin: 1rem auto;">
+            <table>
+               <tr>
+                  <td>PRE-OWNED</td>
+                  <td>COOKIES</td>
+                  <td>PRESSCLUB</td>
+                  <td>LEGAL</td>
+                  <td>COMPLAINTS</td>
+               </tr>
+               <tr>
+                  <td>FIND A DEALER</td>
+                  <td>EU TYRE LABELS</td>
+                  <td>FAQS</td>
+                  <td>CONTACT</td>
+                  <td>PRIVACY</td>
+               </tr>
+               <tr>
+                  <td>CAREERS</td>
+                  <td>SITE MAP</td>
+                  <td>WHISPERS</td>
+                  <td>LANGUAGE</td>
+                  <td><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-twitter"></i></td>
+               </tr>
+            </table>
+            <hr style="border-color: rgb(42, 40, 40); width: 90%; margin: 1rem auto;">
+         </section>
+      </footer>
+   </body>
+   <script src="./Js/main.js"></script>  
+</html>

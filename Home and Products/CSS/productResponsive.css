@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1023px) {
+    /* THANH TIM KIEM */
+    html {
+        scroll-padding-top: 0;
+    }
+    nav input[type=text] {
+        margin-left: 60vw;
+        width: 13vw;
+    }
+    nav input[type=text]:focus {
+        width: 29%;
+    }
+    /* MUNU */
+    .menuCover {
+        width: 41%;
+        left: -45%;
+    }
+    /*  */
+    .GalShow {
+        height: 45vh;
+    }
+
+    .GalShow .elip {
+        bottom: 4rem;
+        height: 20vh;
+        width: 77vw;
+    }
+
+    div.picShow {
+        width: 65%;
+        bottom: 21%;
+    }
+
+    .GalShow .Buy {
+        right: 3.5rem;
+        padding: 0.5rem;
+        font-size: smaller;
+    }
+
+    .GalShow .dataInfo {
+        right: 3.5rem;
+        bottom: 5rem;
+        line-height: 1.5rem;
+        font-size: smaller;
+    }
+    /*  */
+    .GalPro > div.images > div {
+        width: 29%;
+        margin: 0.7rem;
+        height: 8rem;
+    }
+    .GalPro .dataInfo {
+        font-size: smaller;
+        padding: 0.2rem;
+    }
+    .info {
+        font-size: smaller;
+        bottom: 0.3rem;
+        right: 0.5rem;
+    }
+    /* PANNEL */
+    section.Ads > .pannel {
+        height: 30vh;
+        width: 90%;
+    } 
+
+    section.Ads > .pannel > h1.register {
+        font-size: 1.3rem;
+        line-height: 3.5rem;
+        padding-top: 17%;
+    }
+
+    section.Ads > .pannel h1.register > span {
+        font-size: smaller;
+        padding: 0.5rem;
+    }
+
+    /* CSS FOOTER */
+    section.foot > table {
+        margin: 2rem !important;
+    }
+
+    section.foot > table td {
+        font-size: 0.6rem !important;
+        padding: 0.5rem !important;
+        font-weight: 400 !important;
+    }
+
+    section.foot > table td > i {
+        font-size: 0.9rem !important;
+        margin-right: 5px !important;
+    }
+    
+
+}
+
+@media only screen and (max-width: 739px) {
+    .menu > i {
+        font-size: 20px;
+    }
+    .logo {
+        font-size: 0.8rem;
+        left: 7%;
+    }
+
+    nav input[type=text] {
+        height: 2.5rem;
+        margin-left: 50vw;
+    }
+    nav input[type=text]:focus {
+        width: 37%;
+    }
+    .menuCover {
+        width: 80%;
+        left: -95%;
+    }
+
+    .GalShow {
+        height: 35vh;
+    }
+    .GalShow .elip {
+        height: 13.5vh;
+        width: 72vw;
+    }
+
+    div.picShow {
+        width: 60%;
+        bottom: 28%;
+    }
+    /*  */
+    .GalShow .Buy {
+        right: 1.5rem;
+        font-size: 0.7rem;
+        padding: 0.4rem;
+        bottom: 1rem;
+    }
+    .GalShow .dataInfo {
+        right: 1.5rem;
+        font-size: 0.7rem;
+        bottom: 3rem;
+        line-height: 1rem;
+    }
+    /*  */
+    .GalPro > div.images > div {
+        width: 43%;
+    }
+
+    .GalPro .dataInfo {
+        width: fit-content;
+    }
+    .info {
+        background-color: rgba(2, 167, 84, 0.8);
+    }
+    /* SECTION ADVERTISEMENT */
+    section.Ads > .pannel  {
+        height: 22vh;
+        margin: 2.5rem auto;
+    }
+    section.Ads > .pannel > h1.register {
+        padding-top: 20%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    section.Ads > .pannel > h1.register > span {
+        font-size: 0.7rem;
+        padding: 0.35rem;
+    }
+
+    /* CSS FOOT */
+
+    section.foot > table td {
+        font-size: 0.3rem !important;
+        padding: 0 !important;
+    }
+
+    section.foot > table td > i {
+        font-size: 0.3rem !important;
+    }
+}
